@@ -1,4 +1,4 @@
-name: build Python application
+name: test repo variables for Python application
 on: # multiple triggers when this workflow can run
  workflow_dispatch:  # manually run code
  push:
