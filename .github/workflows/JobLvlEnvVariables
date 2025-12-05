@@ -1,10 +1,10 @@
 name: build Python application
 on: # multiple triggers when this workflow can run
  workflow_dispatch:  # manually run code
- push:
+ push: #on push
    branches:
      - master
- pull_request:
+ pull_request: #on PR
    branches:
      - master
 jobs:
